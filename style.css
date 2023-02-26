@@ -1,0 +1,86 @@
+body {
+    font-family: monospace;
+    background-color: rgb(208, 241, 248);
+    min-width: 600px;
+}
+.title {
+    text-align: center;
+}
+.bigbox {
+    width: 80%;
+    margin-left: 11%;
+    background-color: rgb(191, 230, 191);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    position: relative;
+    border-radius: 10px;
+}
+.scorebox {
+    background-color: rgb(241, 248, 216);
+    border-radius: 10px;
+    width: 25%;
+    text-align: center;
+    padding: .5px 4px .5px 4px;
+    margin-left: 10px; 
+    margin-top: 10px;
+
+}
+.resetbtn {
+    border-radius: 10px;
+    background-color:  rgb(241, 248, 216);
+    border-radius: 10px;
+    width: 12%;
+    padding-right: 4px;
+    padding-left: 4px;
+    position: absolute;
+    right: 0;
+    top: 25px;
+    margin-right: 10px;
+    text-align: center;
+}
+.mainbox {
+    background-color: rgb(173, 218, 227);
+    border-radius: 20px;
+    width: 80%;
+    margin-left: 9%;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+.guessbtn {
+    border-radius: 15px;
+    font-family: monospace;
+    padding: 10px;
+    border: none;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.checkbtn {
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(155, 223, 155);
+    padding: 10px 15px 10px 15px;
+    font-family: monospace;
+}
+.duckimg {
+    width: 150px;
+    height: 160px;
+}
+.histbox {
+    background-color: rgb(241, 248, 216);
+    border-radius: 10px;
+    margin-left: 15%;
+    width: 70%;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.hide {
+    visibility: hidden;
+}
+.guessbox {
+    text-align: center;
+}

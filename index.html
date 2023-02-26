@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project 3</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+    <div class="title">
+        <h1>GUESS MY NUMBER</h1>
+        <h3>Guess the number between 1 and 100</h3>
+    </div>
+
+    <div class="bigbox">
+        <div class="scorebox">
+            <h3>Score: <span class="currentScore">10</span></h3>
+            <h3>High Score: <span class="highScore">0</span></h3>
+        </div>
+
+        <div class="resetbtn">
+            <h2>Reset</h2>
+        </div>
+
+        <div class="mainbox">
+            <img src="duck.png" alt="" class="duckimg" id="imgid">
+            <div class="guessbox">
+                <input type="text" placeholder="Guess a number" class="guessbtn">
+            </div>
+
+            <div>
+                <button class="checkbtn">Check</button>
+            </div>
+
+            <div class="guessbox">
+                <h2 style="color: white; font-weight: normal;" class="msg">Guess a Number</h2>
+            </div>
+        </div>
+
+        <div class="histbox">
+            <h2 style="font-weight: normal;">Guess History</h2>
+        </div>
+
+    </div>
+
+
+    <script src="index.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+</body>
+</html>
